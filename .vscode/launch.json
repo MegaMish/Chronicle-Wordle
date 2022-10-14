@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open Index.html",
-            "file": "/Users/sesheikholeslam/Downloads/School/12th Grade/Personal/Chronicle Wordle/Index.html"
+            "file": "C:/Users/seann/Downloads/School/Personal/Chronicle-Wordle/Index.html"
         }
     ]
 }
