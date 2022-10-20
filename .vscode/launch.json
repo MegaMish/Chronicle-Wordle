@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open Index.html",
-            "file": "C:/Users/seann/Downloads/School/Personal/Chronicle-Wordle/Index.html"
+            "file": "index.html"
         }
     ]
 }
