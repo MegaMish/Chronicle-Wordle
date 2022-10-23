@@ -91,7 +91,6 @@ const targetWords = [
   'kevin',
   'perez',
   'pizza',
-  'haskel,'
   'paige',
   'ohana',
   'ctime',
@@ -13199,7 +13198,6 @@ const dictionary = [
   'kevin',
   'perez',
   'pizza',
-  'haskel,'
   'paige',
   'ohana',
   'ctime',
