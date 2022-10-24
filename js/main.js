@@ -13246,7 +13246,7 @@ const DANCE_ANIMATION_DURATION = 500
 const keyboard = document.querySelector("[data-keyboard]")
 const alertContainer = document.querySelector("[data-alert-container]")
 const guessGrid = document.querySelector("[data-guess-grid]")
-const offsetFromDate = new Date(2022, 9, 17)
+const offsetFromDate = new Date(2022, 9, 23)
 const msOffset = Date.now() - offsetFromDate
 const dayOffset = msOffset / 1000 / 60 / 60 / 24
 const targetWord = targetWords[Math.floor(dayOffset)]
@@ -13351,7 +13351,7 @@ function flipTile(tile, index, array, guess) {
       if (targetWord[index] === letter) {
         tile.dataset.state = "correct"
         key.classList.add("correct")
-      } else if (getCorrectTiles(letter)) {
+      } else if (targetWord.includes(letter)) {
         tile.dataset.state = "wrong-location"
         key.classList.add("wrong-location")
       } else {
