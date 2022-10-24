@@ -13351,7 +13351,7 @@ function flipTile(tile, index, array, guess) {
       if (targetWord[index] === letter) {
         tile.dataset.state = "correct"
         key.classList.add("correct")
-      } else if (targetWord.includes(letter)) {
+      } else if (getCorrectTiles(letter)) {
         tile.dataset.state = "wrong-location"
         key.classList.add("wrong-location")
       } else {
@@ -13372,6 +13372,17 @@ function flipTile(tile, index, array, guess) {
     },
     { once: true }
   )
+}
+
+function getCorrectTiles(letter) {
+  const correctTiles = guessGrid.querySelectorAll(`[data-state="correct"]`);
+  correctTiles.forEach(tile => {
+    if (tile.dataset.letter === letter && (targetWord.match(new RegExp(letter, "g") || [])).length === 1) {
+      return false;
+    } else if (targetWord.includes(letter)) {
+      return true;
+    }
+  })
 }
 
 function getActiveTiles() {
