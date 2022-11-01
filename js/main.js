@@ -183,8 +183,8 @@ const targetWords = [
   'wells',
   'miles',
   'rally',
-  'stacy'
-  'stacy'
+  'stacy',
+  'stacy',
   'stacy'
 ]
 const dictionary = [
