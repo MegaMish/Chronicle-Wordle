@@ -24,7 +24,7 @@ const targetWords = [
   'weiss',
   'apple',
   'ipads',
-  'riley',
+  'rosas',
   'pratt',
   'pratt',
   'pratt',
