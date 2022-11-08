@@ -13309,6 +13309,99 @@ const dictionary = [
   'rally',
   'stacy'
 ]
+const blurbs = [
+  "Built in 2002, the Janet Root Theatre is where announcements happen. Just remember, NO drinks and NO food!",
+  "There's CHRIStopher Powers and CHRIStian Marcelli. Who's the better Chris?",
+  "None other than P.E. Teacher and Varsity Soccer coach Jason Montoya.",
+  "You better, and quick. This test is a big deal...",
+  "The liminal space between classes. Watch out for slow walkers!",
+  "The liminal space between classes. Watch out for slow walkers!",
+  "The liminal space between classes. Watch out for slow walkers!",
+  "Science, Technology, Engineering, and Math. Oh, also Art.",
+  "Jessica Thorn, expert math teacher. Keep an eye out for her math question of the week!",
+  "The big-wigs of Shorecrest. Hardy is the Dean for the Upper School.",
+  "Edward Sheppard - Math and computer science teacher... and Darth Vader.",
+  "In 1927, Emma Vinal became the second headmistress of Shorecrest Outdoor School.",
+  "In 1927, Emma Vinal became the second headmistress of Shorecrest Outdoor School.",
+  "In 1927, Emma Vinal became the second headmistress of Shorecrest Outdoor School.",
+  "In 1927, Emma Vinal became the second headmistress of Shorecrest Outdoor School.",
+  "In 1927, Emma Vinal became the second headmistress of Shorecrest Outdoor School.",
+  "In 1927, Emma Vinal became the second headmistress of Shorecrest Outdoor School.",
+  "In 1927, Emma Vinal became the second headmistress of Shorecrest Outdoor School.",
+  "In 1927, Emma Vinal became the second headmistress of Shorecrest Outdoor School.",
+  "In 1927, Emma Vinal became the second headmistress of Shorecrest Outdoor School.",
+  "In 1927, Emma Vinal became the second headmistress of Shorecrest Outdoor School.",
+  "The Weiss Pavillion, right by the Charger Commons. Where Poetry in the Park and the Costume Parade happen.",
+  "Did you know, Shorecrest is an Apple-distinguished school?", "Speaking of Apple Incorporated...",
+  "Brenda Rosas, a current Kindergarten teacher.", "Pratt Boulevard is the entrance to Shorecrest. One-way traffic ONLY.",
+  "Pratt Boulevard is the entrance to Shorecrest. One-way traffic ONLY.",
+  "Pratt Boulevard is the entrance to Shorecrest. One-way traffic ONLY.",
+  "Four laps around is a mile. Exactly one-half of the sport known as Track and Field",
+  "Tis the season for giving. By the way make sure to get something for the Gift Drive.",
+  "Get something for the Gift Drive. Really. Help out less fortunate kids in Pinellas.",
+  "Julie Stewart, middle school Spanish teacher.", "Alissa Vigue, longtime Kindergarten teacher.",
+  "Alissa Vigue, longtime Kindergarten teacher.", "Alissa Vigue, longtime Kindergarten teacher.",
+  "Get lots of sleep and study, you'll do well... maybe?", 
+  "A standardized test, although already taken this year (the ACTUAL one). Sophomores beware... next year.", 
+  "The Shorecrest Board of Trustees. Assumedly some pretty trustworthy people.", "Ethan Updike - Strike up the band!", 
+  "Everyone's favorite seventh grade American history teacher, David Hodgson!", 
+  "Everyone's favorite seventh grade American history teacher, David Hodgson!", 
+  "Everyone's favorite seventh grade American history teacher, David Hodgson!", 
+  "Everyone's favorite seventh grade American history teacher, David Hodgson!", 
+  "Everyone's favorite seventh grade American history teacher, David Hodgson!", 
+  "Everyone's favorite seventh grade American history teacher, David Hodgson!", 
+  "Everyone's favorite seventh grade American history teacher, David Hodgson!", 
+  "Everyone's favorite seventh grade American history teacher, David Hodgson!", 
+  "Everyone's favorite seventh grade American history teacher, David Hodgson!", 
+  "Everyone's favorite seventh grade American history teacher, David Hodgson!", 
+  "Everyone's favorite seventh grade American history teacher, David Hodgson!", 
+  "Everyone's favorite seventh grade American history teacher, David Hodgson!", 
+  "Everyone's favorite seventh grade American history teacher, David Hodgson!", 
+  "Everyone's favorite seventh grade American history teacher, David Hodgson!", 
+  "Everyone's favorite seventh grade American history teacher, David Hodgson!", 
+  "Everyone's favorite seventh grade American history teacher, David Hodgson!", 
+  "Everyone's favorite seventh grade American history teacher, David Hodgson!", 
+  "It's a new month already, but you should have slept in today. School starts again tomorrow.", 
+  "One-hundred. But of what?", 
+  "One-hundred YEARS. A centennial, even!", 
+  "Nancy L. Spencer, head of the school. But where's the body?", 
+  "Part of the Middle School wheel block. I guess Shakespeare really was in that park.", 
+  "Part of the Middle School wheel block. I guess Shakespeare really was in that park.", 
+  "Part of the Middle School wheel block. I guess Shakespeare really was in that park.", 
+  "The five Shorecrest Core Values - Respect, Responsibility, Integrity, Compassion, and Knowledge.", 
+  "Chase Waitz-Miller, notable member of the centennial Class of 2023. Go seniors!", 
+  "Erich Schnieder, head of Upper School and former chemistry teacher.", 
+  "Barry Bearden, athletics guy and the coach for the Shorecrest varsity basketball team. Go Chargers!", 
+  "The earliest level of Experiential School. For the Class of 2023, some were there fourteen years ago.", 
+  "The earliest level of Experiential School. For the Class of 2023, some were there fourteen years ago.", 
+  "The earliest level of Experiential School. For the Class of 2023, some were there fourteen years ago.", 
+  "Get a good grade on this one, it counts for your GPA!", 
+  "Spark-y, the school mascot. Keep away from water or electrical equipment.", 
+  "Helene Simon, Middle School French teacher. Bonjour!", 
+  "Something one might eat during break time. Maybe even from Sage.", 
+  "Whether lists, outlines, Cornell... just make sure that you can at least read them!", 
+  "Whether lists, outlines, Cornell... just make sure that you can at least read them!", 
+  "Whether lists, outlines, Cornell... just make sure that you can at least read them!", 
+  "Roderick Fludd, director for diversity and inclusion at Shorecrest and an all-around cool guy.", 
+  "The school's weekly online newsletter, but the publication I prefer is The Chronicle, personally.", 
+  "You sit on these. You can find them in many places on campus, or at least you should be able to.", 
+  "Upper School, grades nine through ten. The last stretch of the Shorecrest Experience.", 
+  "Consists of seven days. There are only so many left before the end of the school year...", 
+  "Consists of seven days. There are only so many left before the end of the school year...", 
+  "Consists of seven days. There are only so many left before the end of the school year...", 
+  "Former US Biology teacher for over forty years. Biology was his life, ya know?", 
+  "Shorecrest Preparatory School, The Chronicle. You're on the website right now.", 
+  "The city right across the bay. Go Bucs!!!", 
+  "Every good classroom has some of these. Now sit down and do your work!", 
+  "You put these on your lockers in the hallway. Remember your combination, lest you lose your belongings.", 
+  "You put these on your lockers in the hallway. Remember your combination, lest you lose your belongings.", 
+  "You put these on your lockers in the hallway. Remember your combination, lest you lose your belongings.", 
+  "Formerly Haiku, subsequently PowerSchool. Currently Schoology. ", 
+  "Emili Jaime Allwood, long-time LS Spanish teacher.", 
+  "Advanced Placement Biology. Did you know the Mitochondria is the powerhouse of the cell?", 
+  "Formerly Shorecrestian. Current whereabouts? University."
+]
+
 const WORD_LENGTH = 5
 const FLIP_ANIMATION_DURATION = 500
 const DANCE_ANIMATION_DURATION = 500
@@ -13319,6 +13412,7 @@ const offsetFromDate = new Date("November 6, 2022")
 const msOffset = Date.now() - offsetFromDate
 const dayOffset = msOffset / 1000 / 60 / 60 / 24
 const targetWord = targetWords[Math.floor(dayOffset)]
+const blurb = blurbs[Math.floor(dayOffset) - 1]
 
 startInteraction()
 
@@ -13434,12 +13528,14 @@ function flipTile(tile, index, array, guess) {
           () => {
             startInteraction()
             checkWinLose(guess, array)
-          },
-          { once: true }
+          }, {
+            once: true
+          }
         )
       }
-    },
-    { once: true }
+    }, {
+      once: true
+    }
   )
 }
 
@@ -13484,14 +13580,16 @@ function shakeTiles(tiles) {
       "animationend",
       () => {
         tile.classList.remove("shake")
-      },
-      { once: true }
+      }, {
+        once: true
+      }
     )
   })
 }
 
 function checkWinLose(guess, tiles) {
   if (guess === targetWord) {
+    showAlert(blurb, null)
     showAlert("You Win", 5000)
     danceTiles(tiles)
     stopInteraction()
@@ -13500,6 +13598,7 @@ function checkWinLose(guess, tiles) {
 
   const remainingTiles = guessGrid.querySelectorAll(":not([data-letter])")
   if (remainingTiles.length === 0) {
+    showAlert(blurb, null)
     showAlert(targetWord.toUpperCase(), null)
     stopInteraction()
   }
@@ -13513,8 +13612,9 @@ function danceTiles(tiles) {
         "animationend",
         () => {
           tile.classList.remove("dance")
-        },
-        { once: true }
+        }, {
+          once: true
+        }
       )
     }, (index * DANCE_ANIMATION_DURATION) / 5)
   })
