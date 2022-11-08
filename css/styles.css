@@ -99,7 +99,7 @@ body.wordle {
 
 .tile[data-state="correct"] {
   border: none;
-  background-color: hsl(158, 94%, 14%);
+  background-color:hsl(115, 29%, 43%);
   color: white;
 }
 
@@ -180,6 +180,8 @@ body.wordle {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  font-weight: 900;
 }
 
 .alert {
@@ -190,6 +192,8 @@ body.wordle {
   opacity: 1;
   transition: opacity 500ms ease-in-out;
   margin-bottom: .5em;
+  border-style: solid;
+  border-color:hsl(158, 94%, 14%);
 }
 
 .alert:last-child {
