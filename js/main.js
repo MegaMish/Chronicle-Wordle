@@ -13600,7 +13600,7 @@ function checkWinLose(guess, tiles) {
   }
 
   if (remainingTiles.length === 0) {
-    showAlert(blurb)
+    showAlert(blurb, 5000)
     showAlert(targetWord.toUpperCase(), null)
     stopInteraction()
   }
