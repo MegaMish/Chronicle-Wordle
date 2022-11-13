@@ -13588,7 +13588,8 @@ function shakeTiles(tiles) {
 }
 
 function checkWinLose(guess, tiles) {
-  if (guess === targetWord || remainingTiles.length === 0)
+  const remainingTiles = guessGrid.querySelectorAll(":not([data-letter])")
+  if (guess === targetWord && remainingTiles.length === 0)
     showAlert(blurb, 5000)
 
   if (guess === targetWord) {
@@ -13598,8 +13599,8 @@ function checkWinLose(guess, tiles) {
     return
   }
 
-  const remainingTiles = guessGrid.querySelectorAll(":not([data-letter])")
   if (remainingTiles.length === 0) {
+    showAlert(blurb)
     showAlert(targetWord.toUpperCase(), null)
     stopInteraction()
   }
