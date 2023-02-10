@@ -13407,7 +13407,7 @@ const blurbs = [
   "Formerly Haiku, subsequently PowerSchool. Currently Schoology. ", 
   "Emili Jaime Allwood, long-time LS Spanish teacher.", 
   "Advanced Placement Biology. Did you know the Mitochondria is the powerhouse of the cell?", 
-  "Formerly Shorecrestian. Current whereabouts? University."
+  "Formerly Shorecrestian. Current whereabouts? University.",
   "Diego Duran-Medina, former Director of Service Learning for the Upper School.", 
   "If you're reading this, it's the weekend. There's no words on the weekend, dummy! There'll be more words on Monday.", 
   "If you're reading this, it's the weekend. There's no words on the weekend, dummy! There'll be more words on Monday.", 
@@ -13503,7 +13503,7 @@ const blurbs = [
   "If you're reading this, it's the weekend. There's no words on the weekend, dummy! There'll be more words on Monday.", 
   "If you're reading this, it's the weekend. There's no words on the weekend, dummy! There'll be more words on Monday.", 
   "Florence Stern, founded Shorecrest in 1923. Hey, that's a hundred years ago!", 
-  'The first half of our school's iconic name. "Where there's a Shore, there's a Crest" - Sparky. Guess which word is next?', 
+  'The first half of our school\'s iconic name. "Where there\'s a Shore, there\'s a Crest" - Sparky. Guess which word is next?', 
   "The second half of our school's iconic name. Also the same name as a brand of toothpaste, of no relation.", 
   "Mandy Howell, long-time fifth grade math teacher.", 
   "The awards ceremony. I wonder who won something? It could even be… you!", 
