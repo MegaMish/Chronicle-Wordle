@@ -205,7 +205,16 @@ const targetWords = [
   'error',
   'ended',
   'ended',
-  'ended'
+  'ended',
+  'tests',
+  'tests',
+  'tests',
+  'tests',
+  'tests',
+  'tests',
+  'tests',
+  'tests',
+  
 ]
 const dictionary = [
   "aahed",
