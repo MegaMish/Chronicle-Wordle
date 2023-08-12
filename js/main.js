@@ -1,4 +1,5 @@
 const targetWords = [
+  'misha',
   'saval',
   'janet',
   'chris',
