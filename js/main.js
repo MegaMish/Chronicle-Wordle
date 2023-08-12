@@ -13667,20 +13667,20 @@ function flipTile(tile, index, array, guess) {
   )
 }
 
-// function getCorrectTiles(letter) {
-//   const tiles = guessGrid.querySelectorAll();
-//   const lastWord = new Array(5);
-//   for (let i = 0; i < 5; i++) {
-//     lastWord[i] = correctTiles[correctTiles.length - 1];
-//   }
-//   lastWord.forEach(tile => {
-//     if (targetWord.includes(tile.dataset.letter) && (targetWord.match(new RegExp(letter, "g") || [])).length === 1) {
-//       return false;
-//     } else if (targetWord.includes(letter)) {
-//       return true;
-//     }
-//   })
-// }
+function getCorrectTiles(letter) {
+  const tiles = guessGrid.querySelectorAll();
+  const lastWord = new Array(5);
+  for (let i = 0; i < 5; i++) {
+    lastWord[i] = correctTiles[correctTiles.length - 1];
+  }
+  lastWord.forEach(tile => {
+    if (targetWord.includes(tile.dataset.letter) && (targetWord.match(new RegExp(letter, "g") || [])).length === 1) {
+      return false;
+    } else if (targetWord.includes(letter)) {
+      return true;
+    }
+  })
+}
 
 function getActiveTiles() {
   return guessGrid.querySelectorAll("[data-state='active']")
