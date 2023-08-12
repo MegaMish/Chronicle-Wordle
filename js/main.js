@@ -13536,7 +13536,7 @@ const DANCE_ANIMATION_DURATION = 500
 const keyboard = document.querySelector("[data-keyboard]")
 const alertContainer = document.querySelector("[data-alert-container]")
 const guessGrid = document.querySelector("[data-guess-grid]")
-const offsetFromDate = new Date("January 10, 2023")
+const offsetFromDate = new Date("August 11, 2023")
 const msOffset = Date.now() - offsetFromDate
 const dayOffset = msOffset / 1000 / 60 / 60 / 24
 const targetWord = targetWords[Math.floor(dayOffset)]
@@ -13667,20 +13667,20 @@ function flipTile(tile, index, array, guess) {
   )
 }
 
-function getCorrectTiles(letter) {
-  const tiles = guessGrid.querySelectorAll();
-  const lastWord = new Array(5);
-  for (let i = 0; i < 5; i++) {
-    lastWord[i] = correctTiles[correctTiles.length - 1];
-  }
-  lastWord.forEach(tile => {
-    if (targetWord.includes(tile.dataset.letter) && (targetWord.match(new RegExp(letter, "g") || [])).length === 1) {
-      return false;
-    } else if (targetWord.includes(letter)) {
-      return true;
-    }
-  })
-}
+// function getCorrectTiles(letter) {
+//   const tiles = guessGrid.querySelectorAll();
+//   const lastWord = new Array(5);
+//   for (let i = 0; i < 5; i++) {
+//     lastWord[i] = correctTiles[correctTiles.length - 1];
+//   }
+//   lastWord.forEach(tile => {
+//     if (targetWord.includes(tile.dataset.letter) && (targetWord.match(new RegExp(letter, "g") || [])).length === 1) {
+//       return false;
+//     } else if (targetWord.includes(letter)) {
+//       return true;
+//     }
+//   })
+// }
 
 function getActiveTiles() {
   return guessGrid.querySelectorAll("[data-state='active']")
