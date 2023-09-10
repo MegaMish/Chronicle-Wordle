@@ -19,7 +19,7 @@ const targetWords = [
 'drive',
 'julie',
 'exams',
-'psat',
+'psats',
 'month',
 'years',
 'nancy',
@@ -13583,7 +13583,7 @@ const DANCE_ANIMATION_DURATION = 500
 const keyboard = document.querySelector("[data-keyboard]")
 const alertContainer = document.querySelector("[data-alert-container]")
 const guessGrid = document.querySelector("[data-guess-grid]")
-const offsetFromDate = new Date("August 05, 2023")
+const offsetFromDate = new Date("September 05, 2023")
 const msOffset = Date.now() - offsetFromDate
 const dayOffset = msOffset / 1000 / 60 / 60 / 24
 const targetWord = targetWords[Math.floor(dayOffset)]
